@@ -72,11 +72,13 @@ const classReport = [
 ];
 
 //Function to filter students with age 16 above
-const studentsAbove16 = (report) => { 
-    const studentsAbove16 = report.filter((report) => {
+const students16Above = (report) => { 
+    const students16Above = report.filter((report) => {
         if(report.age >= 16){
             return report;
         }
     });
-    return studentsAbove16;
+    return students16Above;
 };
+
+console.log(students16Above(classReport))

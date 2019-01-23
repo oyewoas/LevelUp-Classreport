@@ -86,5 +86,3 @@ const outputNameGrade = (studentsDetail) => {
 
 outputNameGrade(classReport);
 
-
-console.log(classReport);
